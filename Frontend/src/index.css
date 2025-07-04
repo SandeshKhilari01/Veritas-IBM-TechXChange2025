@@ -1,0 +1,32 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+/* Light theme styles */
+body.light-theme {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+body.light-theme .bg-gray-900 {
+  background-color: #f9fafb;
+}
+body.light-theme .bg-gray-800 {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+body.light-theme .bg-gray-700 {
+  background-color: #f3f4f6;
+}
+body.light-theme .text-white {
+  color: #111827;
+}
+body.light-theme .text-gray-400 {
+  color: #4b5563;
+}
+body.light-theme .text-gray-300 {
+  color: #374151;
+}
+body.light-theme .border-gray-700 {
+  border-color: #e5e7eb;
+}

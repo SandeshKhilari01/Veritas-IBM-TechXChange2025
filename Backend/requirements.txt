@@ -1,0 +1,29 @@
+# Core LangChain dependencies
+langchain
+langchain_community
+langchain_ibm
+langchain-astradb
+
+# IBM Watson AI dependencies
+ibm_watsonx_ai
+git+https://github.com/ibm-granite-community/utils
+
+# Vector database
+astrapy
+
+# Text processing and tokenization
+tiktoken
+
+# Document loaders
+bs4
+pypdf
+python-docx
+openpyxl
+
+# Web framework for file upload interface
+flask
+flask-cors
+werkzeug
+
+# Additional dependencies that might be needed
+python-dotenv
