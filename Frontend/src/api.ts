@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000'; // Change if backend runs elsewhere
+const API_BASE = 'http://localhost:5005'; // Change if backend runs elsewhere
 
 export const getStatus = async () => {
   const res = await axios.get(`${API_BASE}/status`);

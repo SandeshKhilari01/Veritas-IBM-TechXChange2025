@@ -44,7 +44,7 @@ Press Ctrl+C to stop the server.
     app = create_app(config)
     
     # Run the Flask app
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5005, debug=True)
 
 
 if __name__ == "__main__":
